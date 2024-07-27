@@ -1,36 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- navigation bar -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Link rel="stylesheet" href="../style/index.css">
-    <link rel="stylesheet" href="../style/about.css">
-    <link rel="shortcut icon" href="../resources/logo/icon.png" type="image/x-icon">
-    <title>JS-Agro</title>
-</head>
-<body>
-    <div class="navBar">
-        <div class="navLeft"><a href="../index.html"><h2>JS-Agro</h2></a></div>
-        <div class="navCentre">
-          <ul class="navigationList">
-            <a href="../index.html" style=" --i: 1 "><li>Home</li></a>
-            <a href="../pages/about.html" style=" --i: 2 "><li>About</li></a>
-            <a href="../pages/product.html" style=" --i: 3 "><li>Product</li></a>
-            <a href="../pages/gallery.html" style=" --i: 4 "><li>Gallery</li></a>
-            <a href="../pages/contact.html" style=" --i: 5 "><li>Contact</li></a>
-          </ul>
+export function Home(){
+    return`
+        <div class="homeSection">
+        <div class="homeUpper">
+            <div class="homeUpperLeft">
+                <h2>Welcome to JS-Agro Equipment</h2>
+                <h3>Discover the Future of Farming</h3>
+                <p>At JS Agro Equipment, we are dedicated to revolutionizing agriculture with innovative solutions. Established in 2020, our mission is to empower farmers and agricultural businesses with cutting-edge equipment and technology. We believe in enhancing productivity, sustainability, and efficiency through our state-of-the-art products and exceptional customer service.</p>
+                <button>Know More</button>
+            </div>
+            <div class="homeUpperRight">
+                <div class="upperRightDiv">
+                    <img src="./resources/assets/tracter.png" alt="tracter" />
+                </div>
+            </div>
         </div>
-        <div class="navRight">
-            <ul class="socialLinks">
-                <a href="/" style="--i: 1"><img src="../resources/logo/facebook.png" alt="facebook" /></a>
-                <a href="/" style="--i: 2"><img src="../resources/logo/instagram.png" alt="instagram" /></a>
-                <a href="/" style="--i: 3"><img src="../resources/logo/youtube.png" alt="youtube" /></a>
-            </ul>
-        </div>
+        <div class="homeMain"></div>
+        <div class="homeLower"></div>
     </div>
-<!-- Home page of Web page -->
-<div class="About">
+    `;
+}
+export function About(){
+    return `
+    <div class="About">
     <div class="AboutLeft">
         <ul class="aboutList">
             <a href="#company"><li>Company</li></a>
@@ -108,48 +99,5 @@
         <div class="SocialLinks" id="social"></div>
     </div>
 </div>
-
-<!-- footer bAR -->
-    <div class="footer">
-        <div class="footerLeft"><div><img src="../resources/logo/logo.jpeg" alt="logo" /></div></div>
-        <div class="footerRight">
-            <!-- <div class="rightUpper">
-                <ul class="upperlist1">
-                    <h3>Quick Links</h3>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                </ul>
-                <ul class="upperlist3">
-                    <h3>header</h3>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                </ul>
-                <ul class="upperlist1">
-                    <h3>HeadQuater</h3>
-                    <li><a href="/">Phone : +918814830805</a></li>
-                    <li><a href="https://mail.google.com/mail/u/0/#search/jsagroequipment%40gmail.com?compose=new" target="_blank">Email : jsagroequipment@gmail.com </a></li>
-                    <li>
-                        <a href="https://maps.app.goo.gl/aXuHoUXn56kX46Pz6" target="_blank">JS AGRO EQUIPMENT,<br/>Near Sonalika agency St, 8, Bhuna Rd, Fatehabad, Haryana 125050</a>
-                    </li>
-                </ul>
-            </div> -->
-            <div class="rightlower">
-                <ul class="HeadOffice">
-                    <h3>HeadQuater</h3>
-                    <li><a href="/">Phone : +918814830805</a></li>
-                    <li><a href="https://mail.google.com/mail/u/0/#search/jsagroequipment%40gmail.com?compose=new" target="_blank">Email : jsagroequipment@gmail.com </a></li>
-                    <li>
-                        <a href="https://maps.app.goo.gl/aXuHoUXn56kX46Pz6" target="_blank">JS AGRO EQUIPMENT,<br/>Near Sonalika agency St, 8, Bhuna Rd, Fatehabad, Haryana 125050</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footerCopyRight"><p>Copyright ©:eNinja-In 2024</p></div>
-    <script src="../script/app.js"></script>
-</body>
-</html>
+`;
+}
