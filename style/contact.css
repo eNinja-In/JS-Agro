@@ -1,0 +1,22 @@
+body{width: 100vw;overflow-x:hidden;padding: 0;margin: 0;}
+html{scroll-behavior: smooth;}
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #f1f1f1;}
+::-webkit-scrollbar-thumb {background: #888;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+.heroSection{width: 100%;text-align: center;}
+.heroSection h1{font-size: 210%;color: blue;}
+.heroSection h1:hover{color: rgb(228, 131, 34);;}
+.contact-info{margin-left: 2%;width: 80%;display: flex;flex-wrap: wrap;}
+.contact-info h2{font-size: 180%;color: blue;width: 100%;}
+.contact-info strong{font-size: 130%;width: 10%;}
+.contact-info p{width: 90%;margin: 0 0 3% 0;font-size: 100%;}
+.contact-form{width: 60%; margin: 2%;margin-bottom: 5%;}
+.contact-form h2{font-size: 180%;color: blue;width: 100%;}
+.contact-form form {display: flex;flex-direction: column;}
+.contact-form form label {margin: 0; font-size: 115%;}
+.contact-form form input,.contact-form form textarea {padding: 1%;font-size: 100%; margin:2% 0;border: 1px solid #ccc;border-radius: 4px;}
+.contact-form form button {padding: 1.5%;background: blue;color: white;font-size: 110%; border: none;border-radius: 4px;cursor: pointer;}
+.contact-form form button:hover {background: rgb(228, 131, 34);}
+.contactLinks{width: 80%;margin-left: 2%;}
+.contactLinks h2{font-size: 180%;color: blue;width: 100%;}

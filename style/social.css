@@ -1,0 +1,5 @@
+.socialDiv{margin: 2%;display: flex;}
+.socialDiv div{text-align: center;width: 13%;margin: 0.4%;padding: 1%;border-radius: 20px;}
+.socialDiv div a{text-decoration: none;font-size: 110%;color: black;}
+.socialDiv img{width: 100%;}
+.socialDiv div:hover{border: 2px solid blue;margin: 1.2%;padding: 0;font-size: 110%;margin-bottom: 1%;}

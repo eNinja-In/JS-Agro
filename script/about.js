@@ -1,37 +1,33 @@
-
-// navigation Bar 
 const NavigationBar = document.querySelector(".navBar")
 NavigationBar.innerHTML = `<div class="navLeft"><a href="/"><h2>JS-Agro</h2></a></div>
         <div class="navCentre">
           <ul class="navigationList">
-            <a href="./index.html" style=" --i: 1 "><li>Home</li></a>
-            <a href="./pages/about.html" style=" --i: 2 "><li>About</li></a>
-            <a href="./pages/product.html" style=" --i: 3 "><li>Product</li></a>
-            <a href="./pages/gallery.html" style=" --i: 4 "><li>Gallery</li></a>
-            <a href="./pages/contact.html" style=" --i: 5 "><li>Contact</li></a>
+            <a href="../index.html" style=" --i: 1 "><li>Home</li></a>
+            <a href="./about.html" style=" --i: 2 "><li>About</li></a>
+            <a href="./product.html" style=" --i: 3 "><li>Product</li></a>
+            <a href="./gallery.html" style=" --i: 4 "><li>Gallery</li></a>
+            <a href="./contact.html" style=" --i: 5 "><li>Contact</li></a>
           </ul>
         </div>
         <div class="navRight">
             <ul class="navsocialLinks">
-                <a href="/" style="--i: 1"><img src="./resources/logo/facebook.png" alt="facebook" /></a>
-                <a href="/" style="--i: 2"><img src="./resources/logo/instagram.png" alt="instagram" /></a>
-                <a href="/" style="--i: 3"><img src="./resources/logo/youtube.png" alt="youtube" /></a>
+                <a href="/" style="--i: 1"><img src="../resources/logo/facebook.png" alt="facebook" /></a>
+                <a href="/" style="--i: 2"><img src="../resources/logo/instagram.png" alt="instagram" /></a>
+                <a href="/" style="--i: 3"><img src="../resources/logo/youtube.png" alt="youtube" /></a>
             </ul>
         </div>`
-
-// footer Bar
 const FooterBar = document.querySelector(".footer")
 FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/logo.jpeg" alt="logo" /></div></div>
         <div class="footerRight">
             <div class="rightUpper">
                 <ul class="upperlist1">
                     <h3>Quick Links</h3>
-                    <a href="./pages/about.html#company"><li>Company</li></a>
-                    <a href="./pages/product.html"><li>Products</li></a>
-                    <a href="./pages/gallery.html"><li>Gallery</li></a>
-                    <a href="./pages/contact.html"><li>Contact</li></a>
+                    <a href="./about.html#company"><li>Company</li></a>
+                    <a href="./product.html"><li>Products</li></a>
+                    <a href="./gallery.html"><li>Gallery</li></a>
+                    <a href="./contact.html"><li>Contact</li></a>
                 </ul>
-                <ul class="upperlist2">
+                <ul class="upperlist3">
                     <h3>Services</h3>
                     <a href="/"><li>Power weeder</li></a>
                     <a href="/"><li>Power Reaper</li></a>
@@ -56,5 +52,6 @@ FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/
                     </li>
                 </ul>
             </div>
-        </div>`
+            </div>
+        `
 

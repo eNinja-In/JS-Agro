@@ -5,76 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../resources/logo/icon.png" type="image/x-icon">
-    <Link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/headerfooterBar.css">        
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/social.css">
     <title>JS-Agro</title>
 </head>
 <body>
-    <div class="navBar">
-        <div class="navLeft"><a href="../index.html"><h2>JS-Agro</h2></a></div>
-        <div class="navCentre">
-          <ul class="navigationList">
-            <a href="../index.html" style=" --i: 1 "><li>Home</li></a>
-            <a href="../pages/about.html" style=" --i: 2 "><li>About</li></a>
-            <a href="../pages/product.html" style=" --i: 3 "><li>Product</li></a>
-            <a href="../pages/gallery.html" style=" --i: 4 "><li>Gallery</li></a>
-            <a href="../pages/contact.html" style=" --i: 5 "><li>Contact</li></a>
-          </ul>
-        </div>
-        <div class="navRight">
-            <ul class="socialLinks">
-                <a href="/" style="--i: 1"><img src="../resources/logo/facebook.png" alt="facebook" /></a>
-                <a href="/" style="--i: 2"><img src="../resources/logo/instagram.png" alt="instagram" /></a>
-                <a href="/" style="--i: 3"><img src="../resources/logo/youtube.png" alt="youtube" /></a>
-            </ul>
-        </div>
-    </div>
-<!-- Home page of Web page -->
+    <div class="navBar"></div>
+    <!-- main section of contact webpage -->
+     <div class="heroSection">
+        <h1>Get in Touch with JS-Agro Equipment</h1>
+        <p>"We're here to help you with your agricultural needs."</p>
+     </div>
+     <section class="contact-info">
+        <h2>Contact Information</h2>
+        <strong>Address:</strong>
+        <p>JS AGRO EQUIPMENT,<br>Near Sonalika agency St, 8, Bhuna Rd, Fatehabad, Haryana 125050</p>
+        <strong>Phone:</strong> 
+        <p>Customer Service: +91-1234567890,<br>Sales: +91-9876543210</p>
+        <strong>Email:</strong> 
+        <p>info@js-agro.com,<br>support@js-agro.com,<br>sales@js-agro.com</p>
+      </section>
 
-<h1>Contact</h1>
-
-
-
-<!-- footer bAR -->
-    <div class="footer">
-        <div class="footerLeft"><div><img src="../resources/logo/logo.jpeg" alt="logo" /></div></div>
-        <div class="footerRight">
-            <!-- <div class="rightUpper">
-                <ul class="upperlist1">
-                    <h3>Quick Links</h3>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                </ul>
-                <ul class="upperlist3">
-                    <h3>header</h3>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                    <a href="/"><li>list</li></a>
-                </ul>
-                <ul class="upperlist1">
-                    <h3>HeadQuater</h3>
-                    <li><a href="/">Phone : +918814830805</a></li>
-                    <li><a href="https://mail.google.com/mail/u/0/#search/jsagroequipment%40gmail.com?compose=new" target="_blank">Email : jsagroequipment@gmail.com </a></li>
-                    <li>
-                        <a href="https://maps.app.goo.gl/aXuHoUXn56kX46Pz6" target="_blank">JS AGRO EQUIPMENT,<br/>Near Sonalika agency St, 8, Bhuna Rd, Fatehabad, Haryana 125050</a>
-                    </li>
-                </ul>
-            </div> -->
-            <div class="rightlower">
-                <ul class="HeadOffice">
-                    <h3>HeadQuater</h3>
-                    <li><a href="/">Phone : +918814830805</a></li>
-                    <li><a href="https://mail.google.com/mail/u/0/#search/jsagroequipment%40gmail.com?compose=new" target="_blank">Email : jsagroequipment@gmail.com </a></li>
-                    <li>
-                        <a href="https://maps.app.goo.gl/aXuHoUXn56kX46Pz6" target="_blank">JS AGRO EQUIPMENT,<br/>Near Sonalika agency St, 8, Bhuna Rd, Fatehabad, Haryana 125050</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+      <div class="contactLinks"><h2>Social Media Links</h2><div class="aboutsocialLinks"></div></div>
+      
+      <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+     <!-- footer section of webpage -->
+    <div class="footer"></div>
     <div class="footerCopyRight"><p>Copyright ©:eNinja-In 2024</p></div>
-    <script src="../script/app.js"></script>
+    <script src="../script/about.js"></script>
+    <script src="../script/social.js"></script>
 </body>
 </html>
