@@ -1,4 +1,4 @@
-const NavigationBar = document.querySelector(".navBar")
+let NavigationBar = document.querySelector(".navBar")
 NavigationBar.innerHTML = `<div class="navLeft"><a href="/"><h2>JS-Agro</h2></a></div>
         <div class="navCentre">
           <ul class="navigationList">
@@ -15,15 +15,20 @@ NavigationBar.innerHTML = `<div class="navLeft"><a href="/"><h2>JS-Agro</h2></a>
                 <a href="/" style="--i: 2"><img src="../resources/logo/instagram.png" alt="instagram" /></a>
                 <a href="/" style="--i: 3"><img src="../resources/logo/youtube.png" alt="youtube" /></a>
             </ul>
+        </div>
+        <div class=navButton>
+        <div class="navBarOn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
+        <div class="navBarOff"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></div>
         </div>`
-const FooterBar = document.querySelector(".footer")
-FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/logo.jpeg" alt="logo" /></div></div>
+let FooterBar = document.querySelector(".footer")
+let fLogo = "logo.jpeg"
+FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/${fLogo}" alt="logo" /></div></div>
         <div class="footerRight">
             <div class="rightUpper">
                 <ul class="upperlist1">
                     <h3>Quick Links</h3>
                     <a href="./about.html#company"><li>Company</li></a>
-                    <a href="./product.html"><li>Products</li></a>
+                    <a href="./about.html#team"><li>Team</li></a>
                     <a href="./gallery.html"><li>Gallery</li></a>
                     <a href="./contact.html"><li>Contact</li></a>
                 </ul>
@@ -54,4 +59,38 @@ FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/
             </div>
             </div>
         `
+let navBtnOn = document.querySelector(".navBarOn")
+let navBtnOff = document.querySelector(".navBarOff")
+let slideBar = document.querySelector(".navCentre")
 
+
+navBtnOn.onclick = () => {
+    navBtnOff.style = `display:flex;`
+    navBtnOn.style = `display:none;`
+    slideBar.style = `display:flex;`
+}
+navBtnOff.onclick = () => {
+    navBtnOn.style = `display:flex;`
+    navBtnOff.style = `display:none;`
+    slideBar.style = `display:none;`
+}
+
+let whatWeDoElements = document.querySelectorAll(".whatWeDo");
+whatWeDoElements.forEach((element) => {
+  element.addEventListener("click", () => {
+    console.log("Clicked")
+    let paragraph = element.querySelector("p");
+    // Toggle between 'none' and 'flex'
+    paragraph.style.display = (paragraph.style.display === "none" || paragraph.style.display === "") ? "flex" : "none";
+  });
+});
+
+let mission = document.querySelectorAll(".mission li");
+mission.forEach((elm) => {
+    elm.addEventListener("click", () => {
+      console.log("Clicked")
+      let paragraph = elm.querySelector("p");
+      // Toggle between 'none' and 'flex'
+      paragraph.style.display = (paragraph.style.display === "none" || paragraph.style.display === "") ? "flex" : "none";
+    });
+  });

@@ -1,0 +1,27 @@
+{
+    "POWER_WEEDER":[
+        {
+            "MODEL_NO":"JS1000 ",
+            "POWER":"7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"42000"
+        },
+        {
+
+        }
+    ],
+    "POWER_REAPER":[
+        {
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        }
+    ],
+    "SPRAYER":[]
+}

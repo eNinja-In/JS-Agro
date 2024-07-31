@@ -4,21 +4,41 @@ html{scroll-behavior: smooth;}
 ::-webkit-scrollbar-track {background: #f1f1f1;}
 ::-webkit-scrollbar-thumb {background: #888;}
 ::-webkit-scrollbar-thumb:hover {background: #555;}
-.About{display: flex;width: 100%;}
-.AboutLeft{display: block;width: 15%;height: 100%; position: sticky;top: 0;background-color: rgb(61, 61, 254);animation: slideLeft 2s ease forwards;}
-.aboutList{width: 100%;padding: 0;margin: 0;list-style: none;}
-.aboutList a{font-size: 130%;color: white;text-decoration: none;}
-.aboutList li {padding: 3% 7%;border-top: 2px solid white;}
-.aboutList li:hover {background-color: rgb(228, 131, 34);;}
-.AboutRight{width: 80%;padding-left: 2%;}
+
+.About{display: flex;width: 100%;justify-content: center;}
+.AboutRight{width: 100%;}
 .AboutRight h1{color: blue;font-size: 220%;text-align: center;animation: zoom 1s ease-in forwards;}
+.AboutRight h3{color: blue;font-size: 220%; margin-left: 2%;}
 .AboutRight h1:hover{color: rgb(228, 131, 34);}
-:where(.intro div, .team li){display: flex;}
-:where(.intro p, .overview p, .team p, .mission p, .SocialLinks p){width: 70%;}
-:where(.intro div img, .team img){margin: 0  5%;width: 20%;animation: slideRight 2s ease forwards;}
-.team li{margin-top:2%;}
-:where(.intro h3, .overview h3, .team h3, .mission h3, .SocialLinks h3){font-size: 160%;margin:2% 0;}
-:where(.overview h4, .team h4, .mission h4, .SocialLinks h4){font: 110%;margin:  0;}
+
+.intro{width: 80%;margin: 5%; padding:2% 5%; text-align: center;border: 2px solid blue;border-radius: 20px;}
+.intro img{width: 20%;border-radius: 50%;}
+.teamSocialLinks{ margin: 0; margin-left: auto; width: 40%;font-size: 0%;padding: 0;border-radius: 30px;}
+
+.overview{width: 86%;margin: 2% 5%; padding:0%;}
+.whatWeDo{border: 2px solid rgba(128, 128, 128, 0.244);padding: 0 1%;border-radius: 20px;margin-bottom: 2%;background-color: rgba(236, 236, 236, 0.301);}
+.whatWeDo:hover{background-color: rgba(220, 220, 220, 0.6);}
+.whatWeDo h4{font-size: 120%;margin: 1% 0;}
+.whatWeDo p{display: none;}
+
+.team{display: flex;width: 80%;margin: 2% 10%;text-align: center;}
+.team h4{margin: 2%;font-size: 115%;}
+.team h5{margin: 3%;}
+.teamMember{width: 30%;border: 2px solid blue;border-radius: 20px;margin: 2%;padding: 2%;}
+.teamMember:hover{background-color: blue;color: white;}
+.teamMember:hover .teamSocialLinks{background-color: white;}
+.teamMember:hover img{background-color: white;}
+.teamMember img{width: 30%;border-radius: 50%;border: 2px solid white;}
+.teamMember .teamSocialLinks{width: 70%;}
+
+.mission{width: 86%;margin: 0 5%;;padding: 0 2%;}
+.mission h4{font-size: 120%;margin: 0;}
+.mission ul{list-style: none;}
+.mission ul li{border: 2px solid rgba(128, 128, 128, 0.244); background-color: rgba(236, 236, 236, 0.301);border-radius: 20px;padding: 1% 2%;margin-bottom: 1%;}
+.mission ul li:hover{background-color: rgba(220, 220, 220, 0.6);}
+.mission ul li h4{margin: 1% 0;font-size: 110%;}
+.mission ul li p{margin: 0;display: none;}
+
 @keyframes slideLeft{
     0%{transform: translateX(-200px);opacity: 0;}
     100%{transform: translateX(0);opacity: 1;}
@@ -30,4 +50,17 @@ html{scroll-behavior: smooth;}
 @keyframes zoom{
     0%{font-size: 80%;opacity: 0;}
     100%{font-size: 220%;opacity: 1;}
+}
+@media (width < 750px){
+    .AboutRight h3{text-align: center;margin: 10% 0 3% 0;}
+    .intro img{width: 40%;}
+
+    .whatWeDo h4{margin: 1%;}
+    .mission h4{font-size: 150%;}
+
+    .team{display: inline;}
+    .teamMember{width: 80%;margin: 5%;padding: 2% 5%;}
+    .aboutsocialLinks{width: 90%;font-size: 0%;margin-left: auto;}
+
+
 }
