@@ -20,8 +20,9 @@ NavigationBar.innerHTML = `<div class="navLeft"><a href="/"><h2>JS-Agro</h2></a>
         <div class="navBarOn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
         <div class="navBarOff"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></div>
         </div>`
+        
 let FooterBar = document.querySelector(".footer")
-let fLogo = "logo.jpeg"
+let fLogo = "logo1.jpeg"
 FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/${fLogo}" alt="logo" /></div></div>
         <div class="footerRight">
             <div class="rightUpper">
@@ -59,17 +60,17 @@ FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/
             </div>
             </div>
         `
-let navBtnOn = document.querySelector(".navBarOn")
-let navBtnOff = document.querySelector(".navBarOff")
-let slideBar = document.querySelector(".navCentre")
+// let navBtnOn = document.querySelector(".navBarOn")
+// let navBtnOff = document.querySelector(".navBarOff")
+// let slideBar = document.querySelector(".navCentre")
 
 
-navBtnOn.onclick = () => {
+document.querySelector(".navBarOn").onclick = () => {
     navBtnOff.style = `display:flex;`
     navBtnOn.style = `display:none;`
     slideBar.style = `display:flex;`
 }
-navBtnOff.onclick = () => {
+document.querySelector(".navBarOff").onclick = () => {
     navBtnOn.style = `display:flex;`
     navBtnOff.style = `display:none;`
     slideBar.style = `display:none;`

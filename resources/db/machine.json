@@ -1,6 +1,9 @@
 {
-    "POWER_WEEDER":[
+    "PRODUCTS":[
         {
+            "IMAGE":"PowerWeeder_JS1000",
+            "TITLE":"Power_Weeder",
+            "Discription":"Product Discription",
             "MODEL_NO":"JS1000 ",
             "POWER":"7.5 HP",
             "STARTING":"RECOIL",
@@ -9,11 +12,129 @@
             "PRICE":"42000"
         },
         {
-
-        }
-    ],
-    "POWER_REAPER":[
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
         {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
+            "REAPER":"4 FT",
+            "POWER":"7.7.5 HP",
+            "STARTING":"RECOIL",
+            "TRANSMISSION":"GEAR PTO DEIVE",
+            "CUTTING WIDTH ":"1200MM",
+            "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
+            "PRICE":"130000"
+        },
+        {
+            "IMAGE":"PowerReeper_1200MM",
+            "TITLE":"Power_Reeper",
+            "Discription":"Product Discription",
             "REAPER":"4 FT",
             "POWER":"7.7.5 HP",
             "STARTING":"RECOIL",
@@ -22,6 +143,5 @@
             "ENGINETYPE":"1 CYLINDER 4 STROKE AIR COOLED ENGINE",
             "PRICE":"130000"
         }
-    ],
-    "SPRAYER":[]
+    ]
 }
