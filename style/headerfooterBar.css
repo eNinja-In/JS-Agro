@@ -88,9 +88,9 @@
     .navBarOff{display: none;}
     .navLeft{width: 80%;}
     .navLeft h2{align-items: center;text-align: center;}
-    .navCentre{display: none;position: fixed;background-color: blue;top: 6%;width: 35%;height: 60%;z-index: 10;animation: slightRight 1s ease forwards;border-top-right-radius: 20px;border-bottom-right-radius: 20px;}
+    .navCentre{display: none;position: fixed;background-color: blue;top: 6%;width: 60%;height: 80%;z-index: 10;animation: slightRight 1s ease forwards;border-top-right-radius: 20px;border-bottom-right-radius: 20px;}
     .navigationList{display: block;width: 100%;margin: 8% 0;}
-    .navigationList li{width: 100%;margin: 3% 0;padding-left: 8%;}
+    .navigationList li{width: 90%;margin: 3% 0;padding-left: 8%;}
     .navigationList li:hover{border-top: 2px solid white;border-bottom: 2px solid white;}
     .navigationList a{color: white;}
     .navRight{display: none; position: fixed;z-index: 11;width: 30%;}
@@ -98,12 +98,11 @@
     .navsocialLinks a img{width: 100%;}
 
     /* footer Bar Media Query */
-    /* .footer{display: block;} */
     .footerLeft{display: none;}
     .footerRight{width: 100%;}
     .rightUpper{margin: 0; margin-bottom: 5%;}
     .HeadOffice{width: 90%;margin-bottom: 5%;}
-    /* .HeadOffice a{} */
+
     .HeadOffice li{font-size: 80%;padding: 0;padding-left: 2%;}
     :where(.upperlist1, .upperlist2, .upperlist3, .HeadOffice){width: 26%; margin: 0;margin-left: 5%; padding:0;}
     :where(.upperlist1 h3, .upperlist2 h3, .upperlist3 h3, .HeadOffice h3){font-size: 110%;}

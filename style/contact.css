@@ -31,10 +31,11 @@ html{scroll-behavior: smooth;}
 .contactLinks h2{font-size: 180%;color: blue;width: 100%;}
 
 @media(width < 750px){
-    .heroSection h1{font-size: 150%;margin: 0;}
+    .heroSection h1{font-size: 140%;}
+    .heroSection p{font-size: 90%;}
 
-    .contact-info{display: inline;}
-    .contact-info-Left{width: 100%;padding: 0;margin: 0;}
+    .contact-info{display: inline;margin: 0; text-align: left;}
+    .contact-info-Left{width: 95%;padding: 0;margin: 5%;}
     .contact-info-Left h2{font-size: 130%;text-align: center;}
     .contact-info-Left strong{font-size: 115%;width: 15%;}
     .contact-info-Left p{font-size: 99%;}
@@ -44,7 +45,7 @@ html{scroll-behavior: smooth;}
     .contact-form h2{font-size: 120%;text-align: center;}
     .contact-form form label {font-size: 100%;}
     .contact-form form input,.contact-form form textarea {font-size: 80%;padding: 2.4%;}
-    .contactLinks{margin: auto;}
+    .contactLinks{margin: 20% auto;border: 2px solid blue;border-radius: 20px;}
     .contactLinks h2{font-size: 120%;text-align: center;}
     .aboutsocialLinks{font-size: 0;margin-left: auto;width: 90%;}
 }

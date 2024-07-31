@@ -60,7 +60,5 @@ html{scroll-behavior: smooth;}
 
     .team{display: inline;}
     .teamMember{width: 80%;margin: 5%;padding: 2% 5%;}
-    .aboutsocialLinks{width: 90%;font-size: 0%;margin-left: auto;}
-
-
+    .aboutsocialLinks{width: 80%;font-size: 0%;margin: auto; border: 2px solid blue;border-radius: 20px;padding-left: 10%;}
 }

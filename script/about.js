@@ -60,9 +60,9 @@ FooterBar.innerHTML = `<div class="footerLeft"><div><img src="../resources/logo/
             </div>
             </div>
         `
-// let navBtnOn = document.querySelector(".navBarOn")
-// let navBtnOff = document.querySelector(".navBarOff")
-// let slideBar = document.querySelector(".navCentre")
+let navBtnOn = document.querySelector(".navBarOn")
+let navBtnOff = document.querySelector(".navBarOff")
+let slideBar = document.querySelector(".navCentre")
 
 
 document.querySelector(".navBarOn").onclick = () => {
