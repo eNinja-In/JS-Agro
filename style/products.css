@@ -4,7 +4,7 @@
 .productMainUpper p{font-size: 90%;}
 
 #products-container{cursor: pointer; width: 100%;display: flex;justify-content: space-evenly; margin: 0;padding: 0; flex-wrap: wrap;}
-.product{width: 26%;text-align: center;margin: 1%;margin-bottom: 3%;background-color: rgba(211, 211, 211, 0.144); border: 2px solid blue;border-radius: 20px;padding: 2%;}
+.product{width: 28%;text-align: center;margin: 1%;margin-bottom: 3%;background-color: rgba(211, 211, 211, 0.144); border: 2px solid blue;border-radius: 20px;padding: 2%;}
 .product:hover{width: 32%;margin: 0;margin-bottom: 3%; padding: 0;}
 .product img{width: 100%;}
 .product h2{font-size: 140%;}
